@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.277b6414.css",
+    "main.js": "/static/js/main.3886b64e.js",
+    "static/media/finalversionpic.jpg": "/static/media/finalversionpic.17939baed21928a2d567.jpg",
+    "static/media/maldivesVideo.mp4": "/static/media/maldivesVideo.4b1c6a6fb879322d6587.mp4",
+    "static/media/img-farah.jpg": "/static/media/img-farah.cc59d0ecdd261bd7970f.jpg",
+    "static/media/keywest.jpg": "/static/media/keywest.1e30514942c6f50bea09.jpg",
+    "static/media/maldives2.jpg": "/static/media/maldives2.ee088b6ef17100d7f85f.jpg",
+    "static/media/borabora.jpg": "/static/media/borabora.e6c4841f299365fdfa10.jpg",
+    "static/media/carlos.png": "/static/media/carlos.f8fc819d43dff3173783.png",
+    "static/media/borabora2.jpg": "/static/media/borabora2.726ded1de37915f83c71.jpg",
+    "static/media/maldives.jpg": "/static/media/maldives.6912181c1b1fc6c5fa6f.jpg",
+    "static/media/Krzysztof.png": "/static/media/Krzysztof.112abc7314ce851126d9.png",
+    "static/media/image.png": "/static/media/image.26670123d3b41455bf62.png",
+    "static/media/nargez.jpeg": "/static/media/nargez.530ad43943380fbd7a78.jpeg",
+    "index.html": "/index.html",
+    "main.277b6414.css.map": "/static/css/main.277b6414.css.map",
+    "main.3886b64e.js.map": "/static/js/main.3886b64e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.277b6414.css",
+    "static/js/main.3886b64e.js"
+  ]
+}

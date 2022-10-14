@@ -1,6 +1,6 @@
 {
   "hoempage": "https://github.com/princegeneric/nyuadaiworkshop.git",
-  "name": "travel-react-app",
+  "name": "nyuadaiworkshop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

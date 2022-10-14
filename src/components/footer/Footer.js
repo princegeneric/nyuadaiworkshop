@@ -1,6 +1,8 @@
-import React from 'react'
+/*import React from 'react'
 import './FooterStyles.css'
-import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from 'react-icons/fa'
+import {FaTwitter} from 'react-icons/fa'
+import {FaDesktop} from 'react-icons/fa'
+
 
 
 function Footer() {
@@ -8,39 +10,66 @@ function Footer() {
         <div className='footer'>
             <div className="container">
                 <div className="top">
-                    <h3>BEACHES.</h3>
-                    <div className="social">
-                        <FaFacebook className='icon' />
-                        <FaInstagram className='icon' />
-                        <FaTwitter className='icon' />
-                        <FaPinterest className='icon' />
-                        <FaYoutube className='icon' />
-                    </div>
+                    <h3>The NYU Clinical Artificial Intelligence workshop</h3>
+                    <h2>by Farah Shamout</h2>
+                    <ul className="social">
+                        <li>
+                        <FaTwitter className='icon' href="https://twitter.com/NYUClinicalAI"/>
+                        </li>
+                        <li>
+                        <FaDesktop className='icon' href="https://clinicalailab.com"/>
+                        </li>
+                    </ul>
+
+
                 </div>
-                <div className="bottom">
-                    <div className="left">
-                        <ul>
-                            <li>About</li>
-                            <li>Partnerships</li>
-                            <li>Careers</li>
-                            <li>Newsroom</li>
-                            <li>Advertising</li>
-                        </ul>
-                    </div>
-                    <div className="right">
-                        <ul>
-                            <li>Contact</li>
-                            <li>Terms</li>
-                            <li>Policy</li>
-                            <li>Privacy</li>
-                            <li>Pricing</li>
-                            <li>Contact</li>
-                        </ul>
-                    </div>
-                </div>
+              
             </div>
         </div>
+
+       
+       
+
     )
 }
 
-export default Footer
+export default Footer*/ 
+
+import React from 'react';
+import'./FooterStyles.css'
+import {FaAlignCenter, FaAlignRight, FaTwitter} from 'react-icons/fa'
+import {FaDesktop} from 'react-icons/fa'
+  
+const Footer = () => (
+  <footer className="footer">
+   {/**  <p className="text">The NYU Clinical AI Workshop</p> */}
+    <ul className="social">
+                    <a>NYU CAI Lab</a>
+                    <a href="https://twitter.com/NYUClinicalAI" >
+                    <FaTwitter className='icon' />
+                    </a>
+                    <a href="https://clinicalailab.com">
+                    <FaDesktop className='icon' />
+                    </a>
+                    </ul>
+
+
+
+return (
+  <footer class="footer">
+  © 2023 by the Clinical AI Lab
+
+ 
+
+  </footer>
+)
+  
+  </footer>
+);
+  
+export default Footer;
+
+
+
+
+

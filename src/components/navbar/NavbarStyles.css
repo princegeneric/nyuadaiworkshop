@@ -11,11 +11,21 @@
 }
 
 .navbar-bg {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
+}
+
+.logo{
+    width: 90px;
+    height:90px;
+    margin-top: 10px;
 }
 
 .nav-menu {
     display: flex;
+}
+
+.nav-menu a{
+    color: #702b9d;
 }
 
 li {
@@ -24,6 +34,8 @@ li {
 
 .hamburger {
     display: none;
+    color: #702b9d;
+
     /* padding: 1rem; */
 }
 
@@ -65,18 +77,18 @@ li {
     .mobile-menu li {
         padding: 1.2rem 1rem;
         margin: 0 1rem;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid rgb(116, 54, 54);
     }
 
     .mobile-nav {
         margin: 1rem 0;
     }
 
-    .mobile-menu-bottom {
+    /* .mobile-menu-bottom {
         width: 100%;
         text-align: center;
         padding: 1rem 0;
-    }
+    } */
 
     .social-icons {
         display: flex;

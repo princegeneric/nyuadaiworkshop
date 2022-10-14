@@ -23,7 +23,8 @@ a {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 2.3rem;
+ 
 }
 h2 {
   font-size: 2rem;
@@ -38,14 +39,40 @@ h2 {
 button {
   background-image: linear-gradient(45deg,var(--primary-dark) 0%, var(--primary-light) 100%);
   border: 1px solid var(--primary-dark);
-  color: #fff;
+  color: #702b9d;
   padding: .7rem 1.5rem;
   border-radius: 8px;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  height:1000px;
+ }
+ .App{
+  color: #228b22;
+  text-align: center;
+ }
+ .footer {
+  background-color: #702b9d;
+  border-top:2px solid #ab82c5;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  font-size: 20px;
+ }
 
+
+ parent-element{
+  font-size:0px;
+}
+parent-element child-element{
+  display:inline-block;
+  font-size:Required font size;
+}
 
 @media screen and (max-width: 940px) {
   h1 {

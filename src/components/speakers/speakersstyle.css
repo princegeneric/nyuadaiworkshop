@@ -1,0 +1,60 @@
+
+
+.speakers {
+    width: 100%;
+    text-align: center;
+    padding: 4rem 0;
+
+}
+
+.speakers h1 {
+    padding: 1rem;
+    font-size: 22px;
+    color: #7b5aa6;
+}
+.speakers welcome-text{
+    padding: 1rem;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.speakers .speakers-img{
+    height: 200px; 
+    width:200px; 
+}
+
+.speakers h2{
+    padding: 1rem;
+    font-size: 20px;
+    color: #ab82c5;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+
+  .column .comittee-name{
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .speakers .speaker-space {
+    margin-left: .5rem; /* 4px */
+    padding: 1rem;
+    font-size: 22px;
+    color: #7b5aa6;
+}
+
+
